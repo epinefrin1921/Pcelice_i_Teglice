@@ -1,0 +1,37 @@
+.proizvod2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid orange;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+#opis{
+    width: 60%;
+}
+.proizvod2 h3{
+    width: 25%;
+    padding: 10px;
+}
+#formkolicina{
+    width: 10%;
+}
+#forma{
+    display: flex;
+    flex-direction: row;
+}
+#forma input{
+ margin-right: 15px;
+}
+@media (max-width: 500px) {
+    .proizvod2{
+        box-sizing: border-box;
+        padding: 30px;
+
+    }
+    .izmjeni{
+        display: none;
+    }
+}
