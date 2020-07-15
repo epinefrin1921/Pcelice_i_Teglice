@@ -41,6 +41,10 @@ foreach ($_SESSION['products']  as $line)
              values ('{$quantity}','{$item}', '{$oid}', '{$price}')");
 }
 
+
+mail($email,'Order Number: '.$broj, 'Poštovani, Vaša narudžba je primljena.');
+
+
 $_SESSION['products']=[];
 unset($_SESSION['isUpdate']);
 unset($_SESSION['product_added']);
