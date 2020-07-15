@@ -6,6 +6,7 @@
 <head>
 
     <title>Pčelice i Teglice</title>
+    <link rel="icon" type="image" href="images/Pcelice&Teglice_LOGO_04.jpg">
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">

@@ -23,7 +23,7 @@ $query2=mysqli_query($conn, 'select * from order_line where OrderID='.$order);
 <head>
 
     <title>Pčelice i Teglice</title>
-
+    <link rel="icon" type="image" href="../images/Pcelice&Teglice_LOGO_04.jpg">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">

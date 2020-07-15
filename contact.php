@@ -12,6 +12,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="">
     <meta name="description" content="">
+    <link rel="icon" type="image" href="images/Pcelice&Teglice_LOGO_04.jpg">
 
     <!-- stylesheets css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
