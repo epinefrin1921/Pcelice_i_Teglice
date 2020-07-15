@@ -163,7 +163,7 @@ include ('includes/header.php');
                     <h4>Rado ćemo Vam se javiti!</h4>
                 </div>
                 <div class="contact-form wow fadeInUp" data-wow-delay="0.7s">
-                    <form id="contact-form" method="post" action="#">
+                    <form id="contact-form" method="post" action="kontakt.php">
                         <input name="name" type="text" class="form-control" placeholder="Vaše ime" required>
                         <input name="email" type="email" class="form-control" placeholder="Vaš Email" required>
                         <textarea name="message" class="form-control" placeholder="Poruka" rows="5" required></textarea>
