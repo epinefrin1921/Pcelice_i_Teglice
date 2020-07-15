@@ -133,13 +133,13 @@ include ('includes/header.php');
           <ul class="slides">
 
             <li>
-              <img src="images/Pcelice&Teglice_Foto04.png" alt="Flexslider">
+              <img src="images/Pcelice&Teglice_Foto04.jpg" alt="Flexslider">
             </li>
             <li>
-              <img src="images/Pcelice&Teglice_Foto06.png" alt="Flexslider">
+              <img src="images/Pcelice&Teglice_Foto06.jpg" alt="Flexslider">
             </li>
             <li>
-              <img src="images/Pcelice&Teglice_Foto09.png" alt="Flexslider">
+              <img src="images/Pcelice&Teglice_Foto09.jpg" alt="Flexslider">
             </li>
 
           </ul>
@@ -218,7 +218,7 @@ include ('includes/header.php');
             <div class="col-md-6 col-sm-12">
                 <div class="media wow fadeInUp" data-wow-delay="0.5s">
                     <div class="media-object pull-left">
-                        <img src="images/Pcelice&Teglice_Foto03.png" class="img-responsive" alt="Food Menu">
+                        <img src="images/bagrem.jpg" class="img-responsive" alt="Food Menu">
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">Bagrem</h3>
@@ -228,7 +228,7 @@ include ('includes/header.php');
 
                 <div class="media wow fadeInUp" data-wow-delay="0.4s">
                     <div class="media-object pull-left">
-                        <img src="images/Pcelice&Teglice_Foto04.png" class="img-responsive" alt="Food Menu">
+                        <img src="images/Pcelice&Teglice_Foto04.jpg" class="img-responsive" alt="Food Menu">
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">Kadulja</h3>
@@ -238,7 +238,7 @@ include ('includes/header.php');
 
                 <div class="media wow fadeInUp" data-wow-delay="0.3s">
                     <div class="media-object pull-left">
-                        <img src="images/Pcelice&Teglice_Foto09.png" class="img-responsive" alt="Food Menu">
+                        <img src="images/Pcelice&Teglice_Foto09.jpg" class="img-responsive" alt="Food Menu">
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">Kesten</h3>
@@ -250,7 +250,7 @@ include ('includes/header.php');
             <div class="col-md-6 col-sm-12">
                 <div class="media wow fadeInUp" data-wow-delay="0s">
                     <div class="media-object pull-left">
-                        <img src="images/Pcelice&Teglice_Foto06.png" class="img-responsive" alt="Food Menu">
+                        <img src="images/Pcelice&Teglice_Foto06.jpg" class="img-responsive" alt="Food Menu">
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">Livada</h3>
@@ -260,7 +260,7 @@ include ('includes/header.php');
 
                 <div class="media wow fadeInUp" data-wow-delay="0.3s">
                     <div class="media-object pull-left">
-                        <img src="images/Pcelice&Teglice_Foto01.png" class="img-responsive" alt="Food Menu">
+                        <img src="images/Pcelice&Teglice_Foto01.jpg" class="img-responsive" alt="Food Menu">
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">Šumski</h3>
@@ -270,7 +270,7 @@ include ('includes/header.php');
 
                 <div class="media wow fadeInUp" data-wow-delay="0.4s">
                     <div class="media-object pull-left">
-                        <img src="images/Pcelice&Teglice_Foto05.png" class="img-responsive" alt="Food Menu">
+                        <img src="images/Pcelice&Teglice_Foto05.jpg" class="img-responsive" alt="Food Menu">
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">Med u saću</h3>
