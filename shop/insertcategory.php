@@ -7,8 +7,8 @@ include('../includes/db.php');
 $name = $_POST['name'];
 $text = $_POST['text'];
 
-if(!isset($_SESSION['id'])){
-    header('Location: ../home.php');
+if(isset($_SESSION['id'])){
+    header('Location: ../index.php');
     exit();
 }
 

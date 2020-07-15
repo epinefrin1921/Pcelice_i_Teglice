@@ -102,9 +102,9 @@ $(document).ready(function() {
   $(function(){
     jQuery(document).ready(function() {
     $('#home').backstretch([
-       "images/naslovna15.png",
-       "images/naslovna25.png",
-       "images/naslovna35.png",
+       "images/naslovna1.png",
+       "images/naslovna2.png",
+       "images/naslovna3.png",
         ],  {duration: 2000, fade: 750});
     });
   })

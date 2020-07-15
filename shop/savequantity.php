@@ -1,11 +1,11 @@
 <?php
 include ('../includes/db.php');
-session_start();
 $id=$_GET['id'];
 $quant=$_POST['quantity'];
 
-if(!isset($_SESSION['id'])){
-    header('Location: ../home.php');
+session_start();
+if(isset($_SESSION['id'])){
+    header('Location: ../index.php');
     exit();
 }
 

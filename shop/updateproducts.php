@@ -1,13 +1,11 @@
 <?php
 include('../includes/db.php');
+
 session_start();
-
-
-if(!isset($_SESSION['id'])){
-    header('Location: ../home.php');
+if(isset($_SESSION['id'])){
+    header('Location: ../index.php');
     exit();
 }
-
 $id=$_GET['id'];
 $query2=mysqli_query($conn, ' select * from category');
 $query=mysqli_query($conn, 'select * from items where ID='.$id);

@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 function checkRequiredField($value)
 {
     return isset($value) && !empty($value);
@@ -8,7 +8,7 @@ include('../includes/db.php');
 
 
 if(!isset($_SESSION['id'])){
-    header('Location: ../home.php');
+    header('Location: ../index.php');
     exit();
 }
 
