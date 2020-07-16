@@ -178,7 +178,7 @@ include ('includes/header.php');
                     <div class="feature-icon">
                         <span><i class="fa fa-thumbs-o-up"></i></span>
                     </div>
-                    <p>Kada se udruži zajednica pčela nastaje najslađi prirodni proizvod, a zove se med. Naš med je 100% prirodni domaći med.</p>
+                    <p>Kada se udruži zajednica pčela nastaje najslađi prirodni proizvod, a zove se med. Naš med je 100% prirodni domaći proizvod!</p>
                 </div>
             </div>
 

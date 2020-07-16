@@ -2,8 +2,7 @@
 include ('includes/db.php');
 session_start();
 
-$query=mysqli_query($conn, 'select * from items where DateDeleted is null');
-
+$query2=mysqli_query($conn, 'select * from category where deleted is null');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -66,15 +65,19 @@ include ('includes/header.php');
         </div>
     </div>
 </section>
-
+<?php while($row2=mysqli_fetch_assoc($query2)): ?>
 <!-- Menu section -->
+<?php
+    $query=mysqli_query($conn, 'select * from items where DateDeleted is null and CategoryID='.$row2['CID']);
+    ?>
 <section id="menu" class="parallax-section">
     <div class="container">
         <div class="row">
 
             <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
                 <div class="wow fadeInUp section-title" data-wow-delay="0.3s">
-                    <h2>Naša ponuda</h2>
+                    <h2><?= $row2['CNAME'] ?></h2>
+                    <p><?= $row2['CDESCRIPTION'] ?></p>
                     <?php
                     if (isset($_SESSION['product_added'])):?>
                         <p id="message" style="color: white; background: #c21500; padding: 7px; border-radius: 10px">Proizvod dodan</p>
@@ -135,7 +138,7 @@ include ('includes/header.php');
         </div>
     </div>
 </section>
-
+<?php endwhile; ?>
 <section id="video" class="parallax-section">
     <div class="overlay"></div>
     <div class="container">

@@ -86,19 +86,19 @@ include ('includes/header.php');
 
             <div class="lista">
 
-                <div class="wow fadeInUp proizvod2" data-wow-delay="0.6s">
+                <div class="wow fadeInUp proizvod2 item" data-wow-delay="0.6s">
 
-                <h3 class="media-heading" style="width: 20%">Naziv</h3>
-                <h3 id="formkolicina" class="media-heading" style="width: 25%">Količina </h3>
-                    <h3 class="media-heading ">Cijena</h3>
-                    <h3 class="media-heading izmjeni">Izmjeni količinu</h3>
-                    <h3 class="media-heading izmjeni"></h3>
-                    <h3 class="media-heading izmjeni"></h3>
+                    <h3 class="media-heading" style="text-align: left" >Naziv</h3>
+                    <h3 id="formkolicina" class="media-heading" >Količina </h3>
+                    <h3 class="media-heading sakrij">Cijena</h3>
+                    <h3 class="media-heading stimanje sakrij">Izmjeni količinu</h3>
+                    <h3 class="media-heading stimanje2 sakrij" style="text-align: right">Uredi</h3>
+
 
                 </div>
 
                 <?php foreach($_SESSION['products'] as $item): ?>
-                    <div class="wow fadeInUp proizvod2" data-wow-delay="0.6s">
+                    <div class="wow fadeInUp proizvod2 item" data-wow-delay="0.6s">
 
                         <?php
                         $query = mysqli_query($conn, "select * from items where ID ='{$item[0]}'");
@@ -108,17 +108,16 @@ include ('includes/header.php');
                         $total+=$total_price;
                         ?>
 
-                            <h3 class="media-heading" style="width: 20%"><?= $row['Name'] ?></h3>
+                            <h3 class="media-heading" style="text-align: left"><?= $row['Name'] ?></h3>
                             <h3 id="formkolicina" class="media-heading"><?= $item[1] ?></h3>
-                        <h3 class="media-heading "><?= $total_price ?>KM</h3>
+                            <h3 class="media-heading "><?= $total_price ?>KM</h3>
 
-                        <form id="forma" action="orders/updatecart.php?id=<?= $row['ID'] ?>" method="post">
+                            <form id="forma" action="orders/updatecart.php?id=<?= $row['ID'] ?>" method="post">
                                 <input type="number" step="1" min="1" placeholder="Kolicina" id="quantity" name="quantity"  required value="<?= $item[1] ?>" max="<?= $row['Quantity'] ?>">
-                            <input class="btn btn-success btn-sm" id="submit" type="submit" value="Promijeni" >
-                        </form>
+                                <input class="btn btn-success btn-sm" id="submit" type="submit" value="Promijeni" >
+                            </form>
 
-                        <a href="shop/singleproducts.php?id=<?= $row['ID'] ?>">Pogledaj proizvod</a>
-                        <a href="orders/deletefromcart.php?id=<?= $row['ID'] ?>">Izbriši</a>
+                       <a href="orders/deletefromcart.php?id=<?= $row['ID'] ?>" style="text-align: right">Izbriši</a>
 
 
                     </div>
@@ -126,8 +125,14 @@ include ('includes/header.php');
 
                 <div class="wow fadeInUp proizvod2" data-wow-delay="0.6s">
 
-                    <h3 class="media-heading" style="width: 20%">Ukupno: </h3>
-                    <h3 id="formkolicina" class="media-heading" style="width: 15%"> <?= $total ?> KM </h3>
+                    <h3 class="media-heading" style="width: 55%; text-align: left">Dostava u BiH: </h3>
+                    <h3 id="formkolicina" class="media-heading" style="width: 15%; text-align: right"> 8KM </h3>
+
+                </div>
+                <div class="wow fadeInUp proizvod2" data-wow-delay="0.6s">
+
+                    <h3 class="media-heading" style="width: 55%; text-align: left">Ukupno: </h3>
+                    <h3 id="formkolicina" class="media-heading" style="width: 15%; text-align: right"> <?= $total+8 ?> KM </h3>
 
                 </div>
 

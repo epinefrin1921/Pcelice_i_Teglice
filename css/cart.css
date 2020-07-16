@@ -12,11 +12,20 @@
     width: 60%;
 }
 .proizvod2 h3{
-    width: 25%;
     padding: 10px;
+    width: 20%;
+    box-sizing: border-box;
 }
-#formkolicina{
-    width: 10%;
+.proizvod2 form{
+    padding: 10px;
+    width: 20%;
+    box-sizing: border-box;
+
+}
+.proizvod2 a{
+    padding: 10px;
+    width: 20%;
+    box-sizing: border-box;
 }
 #forma{
     display: flex;
@@ -25,13 +34,36 @@
 #forma input{
  margin-right: 15px;
 }
+@media (max-width:650px) {
+    form{
+        align-items: center;
+        align-self: center;
+        justify-items: center;
+        text-align: center;
+    }
+   .item{
+        justify-content: center;
+        justify-items: center;
+    }
+    .proizvod2 h3{
+        width: 110px;
+        margin: 5px;
+    }
+    .proizvod2 form{
+        width: 210px;
+    }
+    .proizvod2 a{
+        width: 110px;
+    }
+    .sakrij{
+        display: none;
+    }
+}
+
 @media (max-width: 500px) {
     .proizvod2{
         box-sizing: border-box;
         padding: 30px;
 
-    }
-    .izmjeni{
-        display: none;
     }
 }
