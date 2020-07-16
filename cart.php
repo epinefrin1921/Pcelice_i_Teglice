@@ -122,13 +122,15 @@ include ('includes/header.php');
 
                     </div>
                 <?php endforeach; ?>
-
+                <!--
                 <div class="wow fadeInUp proizvod2" data-wow-delay="0.6s">
 
                     <h3 class="media-heading" style="width: 55%; text-align: left">Dostava u BiH: </h3>
                     <h3 id="formkolicina" class="media-heading" style="width: 15%; text-align: right"> 8KM </h3>
 
                 </div>
+                 -->
+
                 <div class="wow fadeInUp proizvod2" data-wow-delay="0.6s">
 
                     <h3 class="media-heading" style="width: 55%; text-align: left">Ukupno: </h3>
