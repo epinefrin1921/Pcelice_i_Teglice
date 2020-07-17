@@ -89,7 +89,7 @@ include ('includes/header.php');
                         <span><i class="fa fa-truck"></i></span>
                     </div>
                     <h3>Brzo</h3>
-                    <p>Dostavljamo med širom BiH u roku od 24 sata </p>
+                    <p>Dostavljamo med na teritoriji grada Sarajeva u roku od 24 sata </p>
                 </div>
             </div>
 
