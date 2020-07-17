@@ -131,7 +131,7 @@ include ('includes/header.php');
                 <div class="wow fadeInUp proizvod2" data-wow-delay="0.6s">
 
                     <h3 class="media-heading" style="width: 55%; text-align: left">Ukupno: </h3>
-                    <h3 id="formkolicina" class="media-heading" style="width: 15%; text-align: right"> <?= $total+8 ?> KM </h3>
+                    <h3 id="formkolicina" class="media-heading" style="width: 15%; text-align: right"> <?= $total?> KM </h3>
 
                 </div>
 
