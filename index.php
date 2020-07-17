@@ -196,7 +196,7 @@ include ('includes/header.php');
                     <div class="feature-icon">
                         <span><i class="fa fa-users"></i></span>
                     </div>
-                    <p>Pogodan je sve uzraste, a posebno za djecu, sportiste/ice i starije osobe, prvenstveno u izgradnji i regeneraciji organizma, kao i dobrom imunološkom stanju svakog pojedinca. </p>
+                    <p>Pogodan je za sve uzraste, a posebno za djecu, sportiste/ice i starije osobe, prvenstveno u izgradnji i regeneraciji organizma, kao i dobrom imunološkom stanju svakog pojedinca. </p>
                 </div>
             </div>
 
