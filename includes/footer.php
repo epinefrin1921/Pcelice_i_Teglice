@@ -4,13 +4,14 @@
         <div class="row">
 
             <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.3s">
-                <img src="/pit/images/Pcelice&Teglice_LOGO_04.png" width="80%">
+                <img src="/pit/images/Pcelice&Teglice_LOGO_04.png" width="50%">
             </div>
 
             <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.4s">
                 <h3>Kontaktirajte nas</h3>
                 <p>+387 (0)61 863 445</p>
                 <p>info@pceliceiteglice.ba</p>
+                <p>Developed by <a href="https://www.linkedin.com/in/nedim-ajdin">Nedim Ajdin</a></p>
                 <?php if(!isset($_SESSION['id'])) :?>
                     <p><a href="/pit/user/login.php">Login</a></p>
                 <?php endif; ?>
