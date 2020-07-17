@@ -122,14 +122,11 @@ include ('includes/header.php');
 
                     </div>
                 <?php endforeach; ?>
-                <!--
+
                 <div class="wow fadeInUp proizvod2" data-wow-delay="0.6s">
 
-                    <h3 class="media-heading" style="width: 55%; text-align: left">Dostava u BiH: </h3>
-                    <h3 id="formkolicina" class="media-heading" style="width: 15%; text-align: right"> 8KM </h3>
-
+                    <h3 class="media-heading" style="width: 55%; text-align: left">Trenutno dostavljamo samo lično na području grada Sarajeva</h3>
                 </div>
-                 -->
 
                 <div class="wow fadeInUp proizvod2" data-wow-delay="0.6s">
 
@@ -168,7 +165,7 @@ include ('includes/header.php');
                             <input name="name" type="text" class="form-control" placeholder="Vaše ime" required>
                             <input name="lastname" type="text" class="form-control" placeholder="Vaše prezime" required>
                             <input name="address" type="text" class="form-control" placeholder="Adresa" required>
-                            <input name="city" type="text" class="form-control" placeholder="Grad" required>
+                            <input name="city" type="text" class="form-control" placeholder="Grad" required value="Sarajevo" readonly>
                             <input name="phone" type="text" class="form-control" placeholder="Broj telefona" required>
                             <input name="email" type="email" class="form-control" placeholder="Email" required>
                             <input name="extra" type="text" class="form-control" placeholder="Posebna napomena">
