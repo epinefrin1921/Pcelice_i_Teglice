@@ -18,3 +18,6 @@ if(0==strcmp($status, 'zavrseno')){
     mail('nedzadm071@gmail.com','Pčelice i teglica - završeno ', 'Poštovani, Narudžba je završena.');
     mail($email,'Pčelice i teglica - završeno ', 'Poštovani, Hvala Vam na narudžbi. Uživajte!');
 }
+$link='Location: singleorder.php?id='.$id;
+header($link);
+exit();
