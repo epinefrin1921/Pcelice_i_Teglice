@@ -39,10 +39,6 @@ $query2=mysqli_query($conn, 'select * from category where deleted is null');
 </head>
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
-<!-- Preloader section -->
-<div class="preloader">
-    <div class="sk-spinner sk-spinner-pulse"></div>
-</div>
 
 
 <?php
