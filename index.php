@@ -60,104 +60,6 @@
 include ('includes/header.php');
 ?>
 
-<!-- Feature section -->
-<section id="feature" class="parallax-section">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
-                <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
-                    <h2>Želite prirodan med na vašim vratima u roku od 24 sata?</h2>
-                </div>
-            </div>
-
-            <div class="clearfix"></div>
-
-            <div class="col-md-4 col-sm-12 wow fadeInUp sekcija" data-wow-delay="0.3s">
-                <div class="feature-thumb">
-                    <div class="feature-icon">
-                        <span><i class="fa fa-money"></i></span>
-                    </div>
-                    <h3>Sigurno</h3>
-                    <p>Naručite proizvode iz našeg shopa i platite kada ih preuzmete!</p>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-12 wow fadeInUp sekcija" data-wow-delay="0.6s">
-                <div class="feature-thumb">
-                    <div class="feature-icon">
-                        <span><i class="fa fa-truck"></i></span>
-                    </div>
-                    <h3>Brzo</h3>
-                    <p>Dostavljamo med na teritoriji grada Sarajeva u roku od 24 sata </p>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-12 wow fadeInUp sekcija" data-wow-delay="0.9s">
-                <div class="feature-thumb">
-                    <div class="feature-icon">
-                        <span><i class="fa fa-clock-o"></i></span>
-                    </div>
-                    <h3>Jednostavno</h3>
-                    <p>Jednostavno naručite u našem online shopu. Za sva pitanja posjetite kontakt sekciju. </p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<!-- About section -->
-<section id="about" class="parallax-section">
-	<div class="container">
-		<div class="row">
-
-      <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
-          <div class="wow fadeInUp section-title" data-wow-delay="0.1s">
-            <h2>Naši proizvodi</h2>
-            <h4>Vaš najbolji izbor</h4>
-          </div>
-      </div>
-
-      <div class="clearfix"></div>
-      
-      <div id="sakriveno" class="wow fadeInUp col-md-3 col-sm-5" data-wow-delay="0.3s">
-        <img src="images/Pcelice&Teglice_Foto02.png" class="img-responsive" alt="About">
-        <h3>Prirodan i zdrav</h3>
-      </div>
-
-      <div class="wow fadeInUp col-md-5 col-sm-7" data-wow-delay="0.5s">
-
-        <!-- flexslider -->
-        <div class="flexslider">
-          <ul class="slides">
-
-            <li>
-              <img src="images/Pcelice&Teglice_Foto04.jpg" alt="Flexslider">
-            </li>
-            <li>
-              <img src="images/Pcelice&Teglice_Foto06.jpg" alt="Flexslider">
-            </li>
-            <li>
-              <img src="images/Pcelice&Teglice_Foto09.jpg" alt="Flexslider">
-            </li>
-
-          </ul>
-        </div>
-
-         <p>U ponudi imamo razne vrste meda i mednih proizvoda. Više informacija možete pronaći u našem shopu</p>
-      </div>
-
-       <div class="wow fadeInUp col-md-4 col-sm-12" data-wow-delay="0.4s">
-        	<h2>Samo najbolje</h2>
-         	<p>Za vas smo pripremili samo najbolji odabrani med. Naručite sada i u roku od 24 sata uživajte u pravom domaćem medu.</p>
-         	<p><a href="shop.php">Posjetite naš online shop</a></p>
-
-      </div>
-
-		</div>
-	</div>
-</section>
 
 
 
@@ -213,7 +115,6 @@ include ('includes/header.php');
             <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
                 <div class="wow fadeInUp section-title" data-wow-delay="0.3s">
                     <h2>Vrste meda</h2>
-                    <h4>U ponudi imamo razne vrste meda</h4>
                 </div>
             </div>
 

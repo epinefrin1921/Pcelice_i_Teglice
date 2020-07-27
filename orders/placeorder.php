@@ -42,10 +42,10 @@ foreach ($_SESSION['products']  as $line)
 }
 
 
-mail($email,'Order Number: '.$broj, 'Poštovani, Vaša narudžba je primljena. Broj Vaše narudžbe je '.$broj.', a status možete pogledati na našoj stranici:  http://pceliceiteglice.ba/');
-mail('nedim.ajdin1@gmail.com','Order Number: '.$broj, 'Poštovani, Imate novu narudžbu. Možete je pogledati na stranici:  http://pceliceiteglice.ba/');
-mail('order@pceliceiteglica.ba','Order Number: '.$broj, 'Poštovani, Imate novu narudžbu. Možete je pogledati na stranici:  http://pceliceiteglice.ba/');
-mail('nedzadm071@gmail.com','Order Number: '.$broj, 'Poštovani, Imate novu narudžbu. Možete je pogledati na stranici:  http://pceliceiteglice.ba/');
+mail($email,'Order Number: '.$broj, 'Poštovani, Vaša narudžba je primljena. Broj Vaše narudžbe je '.$broj.', a status možete pogledati na našoj stranici:  https://pceliceiteglice.ba/');
+mail('nedim.ajdin1@gmail.com','Order Number: '.$broj, 'Poštovani, Imate novu narudžbu. Možete je pogledati na stranici:  https://pceliceiteglice.ba/');
+mail('order@pceliceiteglica.ba','Order Number: '.$broj, 'Poštovani, Imate novu narudžbu. Možete je pogledati na stranici:  https://pceliceiteglice.ba/');
+mail('nedzadm071@gmail.com','Order Number: '.$broj, 'Poštovani, Imate novu narudžbu. Možete je pogledati na stranici:  https://pceliceiteglice.ba/');
 
 
 $_SESSION['products']=[];

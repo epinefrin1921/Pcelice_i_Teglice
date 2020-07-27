@@ -74,7 +74,8 @@ include ('includes/header.php');
                         <span><i class="fa fa-comment-o"></i></span>
                     </div>
                     <h3>Pronađite nas na društvenim mrežama</h3>
-                    <a  href="https://www.facebook.com/P%C4%8Delice-Teglice-101684814950566/"><span><i class="fa fa-facebook"></i> Facebook</span></a>
+                    <a class="link" href="https://www.facebook.com/P%C4%8Delice-Teglice-101684814950566/"><span><i class="fa fa-facebook"></i> Facebook</span></a> <br>
+                    <a class="link" href="https://instagram.com/pceliceiteglice"><span><i class="fa fa-instagram"></i> Instagram</span></a>
                 </div>
             </div>
 

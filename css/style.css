@@ -40,7 +40,10 @@ h2 {
 #contact h2 {
   color: #ffffff;
 }
-
+.link{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
 h3 {
   color: #444;
   font-size: 20px;

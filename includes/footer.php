@@ -25,9 +25,9 @@
             <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.5s">
                 <h3>Radno vrijeme</h3>
                 <strong>Ponedjeljak - Petak</strong>
-                <p>08:00 - 16:00 </p>
-                <strong>Subota - Nedjelja</strong>
-                <p>10:00 - 16:00</p>
+                <p>10:00 - 18:00 </p>
+                <strong>Subota</strong>
+                <p>10:00 - 14:00</p>
             </div>
 
         </div>
