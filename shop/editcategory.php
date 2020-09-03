@@ -8,7 +8,8 @@ if(!isset($_SESSION['id'])){
 }
 
 $id=$_SESSION['id'];
-$query=mysqli_query($conn, ' select * from category')
+$cid = $_GET['id'];
+$query=mysqli_query($conn, ' select * from category where CID='.$cid);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -75,32 +76,24 @@ include ('../includes/header.php');
 include ('../includes/adminheader.php');
 ?>
 
-<div class="forma container">
-    <h3>Sve kategorije</h3>
+<div class="forma container" style="margin-top: 30px">
 
     <?php while ($row=mysqli_fetch_assoc($query)): ?>
-        <p>Kategorija: <?= $row['CNAME'] ?>
-            <a href="editcategory.php?id=<?=$row['CID']?>">Uredi</a>
-
-            <?php if(is_null($row['deleted'])): ?>
-            <a href="deletecategory.php?id=<?=$row['CID']?>">Izbrisi</a></p>
-            <?php else: ?>
-            <a href="activatecategory.php?id=<?=$row['CID']?>">Aktiviraj</a></p>
-
-        <?php endif; ?>
+        <p>Kategorija: <?= $row['CNAME'] ?></p>
+        <h3>Uredi kategoriju</h3>
+        <form action="savecategory.php?id=<?= $row['CID'] ?>" method="post">
+            <div>
+                <label for="name">Ime kategorije</label>
+                <input type="text" name="name" id="name" required value="<?= $row['CNAME'] ?>">
+            </div>
+            <div>
+                <label for="text">Opis kategorije</label>
+                <textarea name="text" id="text" required rows="10" cols="60"><?= $row['CDESCRIPTION'] ?></textarea>
+            </div>
+            <input type="submit">
+        </form>
     <?php endwhile; ?>
-    <h3>Dodajte novu kategoriju</h3>
-    <form action="insertcategory.php" method="post">
-        <div>
-            <label for="name">Ime kategorije</label>
-            <input type="text" name="name" id="name" required>
-        </div>
-        <div>
-            <label for="text">Opis kategorije</label>
-            <textarea name="text" id="text" required rows="10" cols="60">Opis</textarea>
-        </div>
-        <input type="submit">
-    </form>
+
 </div>
 
 <?php
