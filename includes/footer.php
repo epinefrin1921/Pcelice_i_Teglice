@@ -12,6 +12,8 @@
                 <p>+387 (0)61 863 445</p>
                 <p>info@pceliceiteglice.ba</p>
                 <p>Developed by <a href="https://www.linkedin.com/in/nedim-ajdin">Nedim Ajdin</a></p>
+                <p>Photo by Imrana Kapetanović</p>
+                <p>Photo and logo design by <a href="https://www.triptih.ba/">triptih</a></p>
                 <?php if(!isset($_SESSION['id'])) :?>
                     <p><a href="/pit/user/login.php">Login</a></p>
                 <?php endif; ?>

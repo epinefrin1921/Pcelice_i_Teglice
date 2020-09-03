@@ -126,6 +126,17 @@ include ('includes/header.php');
                         <p>Veoma popularan med koji pčele prave od sočnog bagremovog cvijetnog soka. Zahvaljujući ljekovitom svojstvu pomaže nam kod raznih zdravstvenih tegoba. Bagremov med spada među najpopularnije, a odlikuje se laganim okusom uz veliki procenat fruktoze što mu omogućava dug period bez kristalizacije. Ovaj med je dobro uzimati u toku cijele godine jer pospješuje imuni sistem, a sprječava zdravstvene probleme poput bolesti krvnog sistema, probavnog trakta i nesanice.</p>
                 </div>
 
+                <div class=" wow fadeInUp" data-wow-delay="0s">
+                    <img src="images/Pcelice&Teglice_Foto06.jpg" class="img-responsive" alt="Food Menu">
+                    <h3 >Livada</h3>
+                    <p>Livadski med potiče od raznih cvijetnih vrsta kojima naši pašnjaci obiluju. Ukus i aroma variraju u odnosu na procentualnu zastupljenost određenog cvijeta. I ovaj med kao i svi drugi, sadrži vitamine i minerale porijeklom iz nektara koji pčele u inverzivnom procesu vraćaju bogatijim za fermentne i organske kiseline. Veoma je popularan u liječenju plućnih, stomačnih i bubrežnih bolesti, kao i kod bolesti srca i krvnih sudova. Ako livadski med u sastavu ima veći procenat glukoze u odnosu na fruktozu, tada će i kristalizacija biti ubrzana, a to je period od par mjeseci u odnosu na datum kada je med vrcan. </p>
+                </div>
+
+                <div class=" wow fadeInUp" data-wow-delay="0.4s">
+                    <img src="images/Pcelice&Teglice_Foto05.jpg" class="img-responsive" alt="Food Menu">
+                    <h3 >Med u saću</h3>
+                    <p> Kada govorimo o medu u saću, govorimo o pčelinjem domu. Taj med nije vrcan i u originalnom je obliku kakav se nalazi u košnicama. Najčešće se vadi okvir iz košnice koji se reže na manje komade i stavlja u staklene posude u koje se sipa vrcani bagremov (nije pravilo) med koji sporije kristalizira. Prilikom konzumacije možemo žvakati saće kako bi spriječili infekciju disajnog trakta te usporili propadanje zubne cakline. Veoma je bogat vitaminom A, i preporučuje se kod respiratornih tegoba koje su produkt oslabljenog metabolizma i nedostatka hranjivih materija.  Žvakanje saća je također odlična preventiva kod upale sinusa koja se javlja u jesen i proljeće. Med u saću je intenzivnijeg okusa u odnosu na tečni med, jer su u njemu sadržana eterična ulja bilja sa kojih pčele skupljaju nektar. </p>
+                </div>
                 <div class=" wow fadeInUp" data-wow-delay="0.4s">
                         <img src="images/Pcelice&Teglice_Foto04.jpg" class="img-responsive" alt="Food Menu">
                         <h3 >Kadulja</h3>
@@ -138,11 +149,6 @@ include ('includes/header.php');
                         <p>Ovaj med se najčešće dobija od cvijetnog nektara domaćeg kestena. Slatkasto – gorkog je okusa, te veoma nutritivan i tamne je boje. U svom sastavu sadrži veliki procenat fruktoze, što usporava kristaliziranje i najčešče je u tekućem stanju. Pozitivna svojstva meda od kestena su jačanje imuniteta, antibakterijsko i protuupalno djelovanje, daje energiju i potiče cirkulaciju. Obzirom na blago gorkasti okus vrlo često se koristi u kuhinji, a može se služiti kako uz slatka tako i uz slana jela. (npr. palačinke, keksi, sirevi, maslac, supe/juhe i sl.)</p>
                 </div>
 
-                <div class=" wow fadeInUp" data-wow-delay="0s">
-                        <img src="images/Pcelice&Teglice_Foto06.jpg" class="img-responsive" alt="Food Menu">
-                        <h3 >Livada</h3>
-                        <p>Livadski med potiče od raznih cvijetnih vrsta kojima naši pašnjaci obiluju. Ukus i aroma variraju u odnosu na procentualnu zastupljenost određenog cvijeta. I ovaj med kao i svi drugi, sadrži vitamine i minerale porijeklom iz nektara koji pčele u inverzivnom procesu vraćaju bogatijim za fermentne i organske kiseline. Veoma je popularan u liječenju plućnih, stomačnih i bubrežnih bolesti, kao i kod bolesti srca i krvnih sudova. Ako livadski med u sastavu ima veći procenat glukoze u odnosu na fruktozu, tada će i kristalizacija biti ubrzana, a to je period od par mjeseci u odnosu na datum kada je med vrcan. </p>
-                </div>
 
                 <div class=" wow fadeInUp" data-wow-delay="0.3s">
                         <img src="images/Pcelice&Teglice_Foto01.jpg" class="img-responsive" alt="Food Menu">
@@ -150,11 +156,6 @@ include ('includes/header.php');
                         <p>Ovo je jedini med za koji pčele trebaju pomoć svojih malih prijatelja – insekata (biljne uši i ostali biljni insekti). Ovaj med je bogat ugljikohidratima i nalazi se u ljepljivoj masi koja se zove medna rosa. Najčešće se nalazi u četinarima i listopadnoj šumi, a za sam proces bitna je hladnoća preko noći kao i velika vlažnost. U šumskom medu smanjen je udio fruktoze i glukoze iz razloga što medna rosa ne sadrži fermente nektara, međutim obiluje saharozom, dekstrinom i mineralima. Općenito može se reći da je izvanredan probiotik jer je bogat aminokiselinama i oligosaharidima koji imaju blagotvoran učinak na bakterije u probavnom sistemu, pa se tako i preporučuje kod stomačnih tegoba. Obzirom da u sastavu ima mali procenat fruktoze i glukoze kristalizacija je usporena i sadrži više antibiotičkih svojstava. </p>
                 </div>
 
-                <div class=" wow fadeInUp" data-wow-delay="0.4s">
-                        <img src="images/Pcelice&Teglice_Foto05.jpg" class="img-responsive" alt="Food Menu">
-                        <h3 >Med u saću</h3>
-                        <p> Kada govorimo o medu u saću, govorimo o pčelinjem domu. Taj med nije vrcan i u originalnom je obliku kakav se nalazi u košnicama. Najčešće se vadi okvir iz košnice koji se reže na manje komade i stavlja u staklene posude u koje se sipa vrcani bagremov (nije pravilo) med koji sporije kristalizira. Prilikom konzumacije možemo žvakati saće kako bi spriječili infekciju disajnog trakta te usporili propadanje zubne cakline. Veoma je bogat vitaminom A, i preporučuje se kod respiratornih tegoba koje su produkt oslabljenog metabolizma i nedostatka hranjivih materija.  Žvakanje saća je također odlična preventiva kod upale sinusa koja se javlja u jesen i proljeće. Med u saću je intenzivnijeg okusa u odnosu na tečni med, jer su u njemu sadržana eterična ulja bilja sa kojih pčele skupljaju nektar. </p>
-                </div>
             </div>
 
         </div>
